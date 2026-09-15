@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: my-cpm2tool
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8815796040:AAGTEuN0jU2ZDcvpOtj-lFg2umtO8j3oSqo
+        sync: false
+      - key: ADMIN_ID
+        value: 612673014
+        sync: false
+
