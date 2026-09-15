@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: my-cpm2tool
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: 8820198558:AAHF9KX1z-ViqShxObr_uNXq9wyDZBiBzOg
+        sync: false
+      - key: 8820198558
+        sync: false
